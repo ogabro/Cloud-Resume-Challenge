@@ -1,1 +1,31 @@
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
 
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #3498db;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Style headings */
+h1 {
+    color: #333;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Style links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
