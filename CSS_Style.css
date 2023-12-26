@@ -1,11 +1,18 @@
-/* Apply styles to the body element */
+/* CSS_Style.css */
+
+/* First Set of Styles (General Website Layout) */
+* {
+    max-width: 700px;
+    margin: auto;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
 /* Style the header */
-header {
+#header {
     text-align: center;
     background-color: #3498db;
     padding: 20px;
@@ -18,7 +25,7 @@ h1 {
 }
 
 /* Style paragraphs */
-p {
+p.Title Description {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 10px;
@@ -27,5 +34,55 @@ p {
 /* Style links */
 a {
     color: #3498db;
+    text-decoration: none;
+}
+
+/* Additional Styles (Second Set of Styles) */
+div {
+    border-radius: 5px;
+}
+
+.left {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: left;
+    position: fixed;
+}
+
+.right {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: right;
+    position: inherit;
+}
+
+.stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+}
+
+p.skill,
+p.experience {
+    font-family: "Cormorant Garamond";
+}
+
+.head {
+    font-size: 20px;
+}
+
+#name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+}
+
+a#contact-link {
+    color: black;
     text-decoration: none;
 }
